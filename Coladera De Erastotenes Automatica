@@ -36,3 +36,14 @@ void Ceros(int v[], int n)
 	}
 	}
 }
+int main()
+{
+	int Vec[1000];
+	llenar(Vec,1000);
+	Ceros(Vec,1000);
+	mostrar(Vec,1000);
+	cin.get();
+	cin.get();
+
+}
+
